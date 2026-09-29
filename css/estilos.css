@@ -1,0 +1,145 @@
+.contactos {
+    background-color: #eaf5fc;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+.titulo {
+    text-align: center;
+    color: #17649a;
+}
+
+.contactos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.ficha {
+    background-color: white;
+    border: 2px solid #8fc3df;
+    width: 420px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ficha h1 {
+    color: #17649a;
+    font-size: 25px;
+}
+
+.ficha h2 {
+    font-size: 18px;
+}
+
+.foto {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+.ficha p {
+    text-align: left;
+    font-size: 16px;
+}
+
+.ficha a {
+    color: black;
+    text-decoration: none;
+}
+
+.ficha a:hover {
+    text-decoration: underline;
+}
+
+.ficha a img {
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.servicios {
+    border: 1px solid black;
+    padding: 10px;
+}
+.tabla-servicios{
+    background-color: #27F5CF;
+
+}
+
+header{
+    background-color: #27F5CF;
+    border-bottom: 3px solid #276FF5;
+    padding: 10px 20px;
+}
+
+.header-container{
+  display: flex;/*ubica los elementos uno a lado del otro*/
+ justify-content: space-between;/*reparte la ubicacion de los elementos*/
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold:/negritas*/;
+    color: # 1F7A55;
+
+}
+
+nav ul{
+
+list-style: none;
+display: flex;
+gap: 20px;
+margin: 0;
+padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none ;
+    color: #F54927;
+    font-weight: 600;
+    padding: 8px 12px;
+    borden-radius: 4px;
+    transition: background-color 1s,color 1s;
+}
+
+nav ul li a:hover{
+    background-color: #0FC702;
+    color:;
+}
+
+footer {
+background-color: #1e293b; /* Azul oscuro */
+color: #cbd5e1;
+padding: 20px;
+font-size: 14px;
+clear:both;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
